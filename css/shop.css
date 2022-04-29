@@ -1,0 +1,222 @@
+@import url(./base.css);
+
+/* 头部 */
+header {
+    width: 100%;
+    height: 90px;
+    background-image: url(../img/shop/10053.jpg);
+    background-size: 12%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* 标题 */
+.heng {
+    width: 100%;
+    height: 65px;
+    background-color: #eef1f1;
+}
+
+.heng h1 {
+    line-height: 65px;
+}
+
+/* 返回 */
+.container .back {
+    width: 88px;
+    height: 48px;
+    background-color: #313838;
+    font-size: 12px;
+    display: block;
+    line-height: 48px;
+    text-align: center;
+    margin: 30px 0;
+    color: #fff;
+}
+
+.back:hover {
+    background-color: red;
+
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+/* 列表 */
+.shopList {
+    display: flex;
+}
+
+.shopList .left {
+    width: 275px;
+    border-right: 1px solid #e5e5e5;
+}
+
+.shopList .left p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-top: 35px;
+    box-sizing: border-box;
+}
+
+.shopList .left label{
+    position: relative;
+    width: 170px;
+    display: block;
+    height: 44px;
+    margin-bottom: 8px;
+    transition: all 0.3s;
+}
+
+.shopList .left .nocheck:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.shopList .left .nocheck input {
+    appearance: none;
+    width: 170px;
+    height: 44px;
+    border: 1px solid #676767;
+    transition: all 0.3s;
+}
+
+.shopList .left .nocheck input:hover{
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.shopList .left .nocheck span {
+    position: absolute;
+    top: 10px;
+    left:20px;
+}
+
+
+.shopList .left .check{
+    position: relative;
+    width: 170px;
+    display: block;
+    height: 44px;
+    margin-bottom: 8px;
+    transition: all 0.3s;
+}
+
+.shopList .left .check input {
+    appearance: none;
+    width: 170px;
+    height: 44px;
+    transition: all 0.3s;
+}
+
+.shopList .left .check span {
+    position: absolute;
+    top: 10px;
+    left:20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.shopList .left .check input:checked {
+    background-color: #313639;
+    cursor: pointer;
+}
+
+.shopList .left .check input:checked:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.shopList .left button {
+    width: 170px;
+    height: 44px;
+    border: 1px solid #676767;
+    background-color: #fff;
+    text-align: left;
+    line-height: 44px;
+    font-size: 18px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.shopList .right {
+    width: 100%;
+    padding-top: 60px;
+    padding-left: 95px;
+    box-sizing: border-box;
+}
+
+.shopList .right ul img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.shopList .right ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.shopList .right ul>p {
+    width: 100%;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.shopList .right ul li {
+    width: 360px;
+    height: 310px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.shopList .right ul li>p {
+    font-size: 12px;
+    line-height: 23px;
+}
+
+/* 连接 */
+.connect {
+    height: 510px;
+    margin-top: 80px;
+    border-top: 1px solid #e6e6e6;
+    padding-top: 25px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.connect ul {
+    width: 357px;
+    height: 100%;
+    font-size: 12px;
+    line-height: 45px;
+}
+
+.connect ul li:first-child {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.connect ul .yd:hover {
+    color: red;
+    cursor: pointer;
+
+    transition: all 0.3s;
+}
+
+
+
+/* 底部 */
+footer {
+    width: 100%;
+    height: 170px;
+    background-color: #192023;
+    color: #fff;
+    font-size: 12px;
+    line-height: 30px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}

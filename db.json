@@ -1,0 +1,405 @@
+{
+  "List": [
+    {
+      "img": "./img/718 (1).jpg",
+      "name": "718"
+    },
+    {
+      "img": "./img/911 (1).jpg",
+      "name": "911"
+    },
+    {
+      "img": "./img/taycan (1).jpg",
+      "name": "Taycan"
+    },
+    {
+      "img": "./img/cayenne (1).jpg",
+      "name": "Cayenne"
+    },
+    {
+      "img": "./img/panamera (1).jpg",
+      "name": "Panamera"
+    },
+    {
+      "img": "./img/macan (1).jpg",
+      "name": "Macan"
+    }
+  ],
+
+  "carList": [
+    {
+      "background": "./img/1.webp",
+      "name": "718",
+      "price": "545,000元起*"
+    },
+    {
+      "background": "./img/2.webp",
+      "name": "911",
+      "price": "1,278,000元起*"
+    },
+    {
+      "background": "./img/3.webp",
+      "name": "Taycan",
+      "price": "888,000元起*"
+    },
+    {
+      "background": "./img/4.webp",
+      "name": "Panamera",
+      "price": "973,000元起*"
+    },
+    {
+      "background": "./img/5.webp",
+      "name": "Macan",
+      "price": "554,000元起*"
+    },
+    {
+      "background": "./img/6.webp",
+      "name": "Cayenne",
+      "price": "868,000元起*"
+    }
+  ],
+
+  "shopList": [
+    
+    {
+      "img": "./img/shop/718Cayman.webp",
+      "name": "718 Cayman",
+      "price": "545,000元起*"
+    },
+    {
+      "img": "./img/shop/718Boxster.webp",
+      "name": "718 Boxster",
+      "price": "565,000元起*"
+    },
+    {
+      "img": "./img/shop/718CaymanT.webp",
+      "name": "718 Cayman T",
+      "price": "641,000元起*"
+    },
+    {
+      "img": "./img/shop/718BoxsterT.webp",
+      "name": "718 Boxster T",
+      "price": "661,000元起*"
+    },
+    {
+      "img": "./img/shop/718CaymanS.webp",
+      "name": "718 Cayman S",
+      "price": "778,000元起*"
+    },
+    {
+      "img": "./img/shop/718BoxsterS.webp",
+      "name": "718 Boxster S",
+      "price": "797,000元起*"
+    },
+    {
+      "img": "./img/shop/718CaymanGTS.webp",
+      "name": "718 Cayman GTS",
+      "price": "875,000元起*"
+    },
+    {
+      "img": "./img/shop/718 Boxster GTS.webp",
+      "name": "718 Boxster GTS",
+      "price": "895,000元起*"
+    },
+    {
+      "img": "./img/shop/Boxster 25 周年.webp",
+      "name": "Boxster 25 周年",
+      "price": "986,000元起*"
+    },
+
+    {
+      "img": "./img/shop/全新 718 Spyder 车型.webp",
+      "name": "全新 718 Spyder 车型",
+      "price": "738,000元起*"
+    },
+    {
+      "img": "./img/shop/718 Cayman GT4 RS.webp",
+      "name": "718 Cayman GT4 RS",
+      "price": "1,578,000元起*"
+    },
+    {
+      "img": "./img/shop/911 Carrera.webp",
+      "name": "911 Carrera",
+      "price": "1,278,000元起*"
+    },
+    {
+      "img": "./img/shop/911 Carrera Cabriolet.webp",
+      "name": "911 Carrera Cabriolet",
+      "price": "1,434,000元起*"
+    },
+    {
+      "img": "./img/shop/911 Carrera 4.webp",
+      "name": "911 Carrera 4",
+      "price": "1,356,000元起*"
+    },
+    {
+      "img": "./img/shop/911 Carrera 4 Cabriolet.webp",
+      "name": "911 Carrera 4 Cabriolet",
+      "price": "1,512,000元起*"
+    },
+    {
+      "img": "./img/shop/911 Carrera S 车型.webp",
+      "name": "911 Carrera S 车型",
+      "price": "1,473,000元起*"
+    },
+    {
+      "img": "./img/shop/911 Carrera S Cabriolet 车型.webp",
+      "name": "Boxster 25 周年",
+      "price": "986,000元起*"
+    },
+    {
+      "img": "./img/shop/911 Carrera 4S 车型.webp",
+      "name": "911 Carrera 4S 车型",
+      "price": "1,551,000元起*"
+    },
+    {
+      "img": "./img/shop/911 Carrera 4S Cabriolet 车型.webp",
+      "name": "911 Carrera 4S Cabriolet 车型",
+      "price": "1,708,000元起*"
+    },
+    {
+      "img": "./img/shop/911 Targa 4.webp",
+      "name": "911 Targa 4",
+      "price": "1,512,000元起*"
+    },
+    {
+      "img": "./img/shop/911 Targa 4S 车型.webp",
+      "name": "911 Targa 4S 车型",
+      "price": "1,708,000元起*"
+    },
+    {
+      "img": "./img/shop/911 Turbo S.webp",
+      "name": "911 Turbo S",
+      "price": "2,343,000元起*"
+    },
+    {
+      "img": "./img/shop/911 Turbo S Cabriolet.webp",
+      "name": "911 Turbo S Cabriolet",
+      "price": "2,480,000元起*"
+    },
+
+    {
+      "img": "./img/shop/Taycan.webp",
+      "name": "Taycan",
+      "price": "888,000元起*"
+    },
+    {
+      "img": "./img/shop/Taycan 4S.webp",
+      "name": "Taycan 4S",
+      "price": "1,158,000元起*"
+    },
+    {
+      "img": "./img/shop/Taycan Turbo.webp",
+      "name": "Taycan Turbo",
+      "price": "1,508,000元起*"
+    },
+    {
+      "img": "./img/shop/Taycan Turbo S.webp",
+      "name": "Taycan Turbo S",
+      "price": "1,808,000元起*"
+    },
+
+    {
+      "img": "./img/shop/Panamera.webp",
+      "name": "Panamera",
+      "price": "973,000元起*"
+    },
+    {
+      "img": "./img/shop/Panamera 铂金版.webp",
+      "name": "Panamera 铂金版",
+      "price": "1,118,000元起*"
+    },
+    {
+      "img": "./img/shop/Panamera 行政加长版.webp",
+      "name": "Panamera 行政加长版",
+      "price": "1,138,000元起*"
+    },
+    {
+      "img": "./img/shop/Panamera 行政加长铂金版.webp",
+      "name": "Panamera 行政加长铂金版",
+      "price": "1,208,000元起*"
+    },
+    {
+      "img": "./img/shop/Panamera 4 行政加长版.webp",
+      "name": "Panamera 4 行政加长版",
+      "price": "1,206,000元起*"
+    },
+    {
+      "img": "./img/shop/Panamera 4 行政加长铂金版.webp",
+      "name": "Panamera 4 行政加长铂金版",
+      "price": "1,278,000元起*"
+    },
+    {
+      "img": "./img/shop/Panamera 4 Sport Turismo.webp",
+      "name": "Panamera 4 Sport Turismo",
+      "price": "1,168,000元起*"
+    },
+    {
+      "img": "./img/shop/Panamera 4S.webp",
+      "name": "Panamera 4S",
+      "price": "1,338,000元起*"
+    },
+    {
+      "img": "./img/shop/Panamera 4S 行政加长版.webp",
+      "name": "Panamera 4S 行政加长版",
+      "price": "1,468,000元起*"
+    },
+    {
+      "img": "./img/shop/Panamera 4S Sport Turismo.webp",
+      "name": "Panamera 4S Sport Turismo",
+      "price": "1,368,000元起*"
+    },
+    {
+      "img": "./img/shop/Panamera 4 E-Hybrid.webp",
+      "name": "Panamera 4 E-Hybrid",
+      "price": "1,168,000元起*"
+    },
+    {
+      "img": "./img/shop/Panamera 4 E-Hybrid 铂金版.webp",
+      "name": "Panamera 4 E-Hybrid 铂金版",
+      "price": "1,298,000元起*"
+    },
+    {
+      "img": "./img/shop/Panamera 4 E-Hybrid 行政加长版.webp",
+      "name": "Panamera 4 E-Hybrid 行政加长版",
+      "price": "1,305,000元起*"
+    },
+    {
+      "img": "./img/shop/Panamera 4 E-Hybrid 行政加长铂金版.webp",
+      "name": "Panamera 4 E-Hybrid 行政加长铂金版",
+      "price": "1,358,000元起*"
+    },
+    {
+      "img": "./img/shop/Panamera 4 E-Hybrid Sport Turismo.webp",
+      "name": "Panamera 4 E-Hybrid Sport Turismo",
+      "price": "1,265,000元起*"
+    },
+    {
+      "img": "./img/shop/Panamera 4S E-Hybrid 行政加长版.webp",
+      "name": "Panamera 4S E-Hybrid 行政加长版",
+      "price": "1,578,000元起*"
+    },
+    {
+      "img": "./img/shop/Panamera 4S E-Hybrid Sport Turismo.webp",
+      "name": "Panamera 4S E-Hybrid Sport Turismo",
+      "price": "1,478,000元起*"
+    },
+    {
+      "img": "./img/shop/Panamera GTS.webp",
+      "name": "Panamera GTS",
+      "price": "1,801,000元起*"
+    },
+    {
+      "img": "./img/shop/Panamera Turbo S.webp",
+      "name": "Panamera Turbo S",
+      "price": "2,338,000元起*"
+    },
+    {
+      "img": "./img/shop/Panamera Turbo S 行政加长版.webp",
+      "name": "Panamera Turbo S 行政加长版",
+      "price": "2,458,000元起*"
+    },
+    {
+      "img": "./img/shop/Panamera Turbo S E-Hybrid 行政加长版.webp",
+      "name": "Panamera Turbo S E-Hybrid 行政加长版",
+      "price": "2,483,000元起*"
+    },
+
+    {
+      "img": "./img/shop/Macan.webp",
+      "name": "Macan",
+      "price": "554,000元起*"
+    },
+    {
+      "img": "./img/shop/Macan T.webp",
+      "name": "Macan T",
+      "price": "618,000元起*"
+    },
+    {
+      "img": "./img/shop/Macan S.webp",
+      "name": "Macan S",
+      "price": "688,000元起*"
+    },
+    {
+      "img": "./img/shop/Macan GTS.webp",
+      "name": "Macan GTS",
+      "price": "848,000元起*"
+    },
+
+    {
+      "img": "./img/shop/Cayenne.webp",
+      "name": "Cayenne",
+      "price": "913,000元起*"
+    },
+    {
+      "img": "./img/shop/Cayenne 铂金版.webp",
+      "name": "Cayenne 铂金版",
+      "price": "1,018,000元起*"
+    },
+    {
+      "img": "./img/shop/Cayenne Coupé.webp",
+      "name": "Cayenne Coupé",
+      "price": "998,000元起*"
+    },
+    {
+      "img": "./img/shop/Cayenne Coupé 铂金版.webp",
+      "name": "Cayenne Coupé 铂金版",
+      "price": "1,058,000元起*"
+    },
+    {
+      "img": "./img/shop/Cayenne E-Hybrid.webp",
+      "name": "Cayenne E-Hybrid",
+      "price": "868,000元起*"
+    },
+    {
+      "img": "./img/shop/Cayenne E-Hybrid 铂金版.webp",
+      "name": "Cayenne E-Hybrid 铂金版",
+      "price": "988,000元起*"
+    },
+    {
+      "img": "./img/shop/Cayenne E-Hybrid Coupé 车型.webp",
+      "name": "Cayenne E-Hybrid Coupé 车型",
+      "price": "938,000元起*"
+    },
+    {
+      "img": "./img/shop/Cayenne E-Hybrid Coupé 铂金版.webp",
+      "name": "Cayenne E-Hybrid Coupé 铂金版",
+      "price": "1,018,000元起*"
+    },
+    {
+      "img": "./img/shop/Cayenne S.webp",
+      "name": "Cayenne S",
+      "price": "1,158,000元起*"
+    },
+    {
+      "img": "./img/shop/Cayenne S 铂金版.webp",
+      "name": "Cayenne S 铂金版",
+      "price": "1,208,000元起*"
+    },
+    {
+      "img": "./img/shop/全新 Cayenne S Coupé 车型.webp",
+      "name": "全新 Cayenne S Coupé 车型",
+      "price": "1,236,000元起*"
+    },
+    {
+      "img": "./img/shop/Cayenne S Coupé 铂金版.webp",
+      "name": "Cayenne S Coupé 铂金版",
+      "price": "1,248,000元起*"
+    },
+    {
+      "img": "./img/shop/Cayenne Turbo.webp",
+      "name": "Cayenne Turbo",
+      "price": "1,840,000元起*"
+    },
+    {
+      "img": "./img/shop/Cayenne Turbo Coupé 车型.webp",
+      "name": "Cayenne Turbo Coupé 车型",
+      "price": "1,908,000元起*"
+    },
+    {
+      "img": "./img/shop/Cayenne Turbo GT.webp",
+      "name": "Cayenne Turbo GT",
+      "price": "2,438,000元起*"
+    }
+  ]
+}

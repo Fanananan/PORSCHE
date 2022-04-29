@@ -1,0 +1,391 @@
+@import url(./base.css);
+
+header {
+    width: 1460px;
+    height: 116px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 155px;
+    box-sizing: border-box;
+}
+
+header .logo {
+    width: 130px;
+    height: 130px;
+    border: 1px solid #f1f4f3;
+    background-image: url(../img/logo.jfif);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-size: 150%;
+    background-position: center;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+
+header .car {
+    width: 745px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .car>li {
+    text-align: center;
+}
+
+header .car>li:hover {
+    color: red;
+}
+
+header .op {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .op>li span {
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+header .op>li span:hover {
+    color: red;
+}
+
+header .op>li a span:hover {
+    color: red;
+}
+
+
+/* 下拉列表 */
+.navList {
+    position: absolute;
+    width: 100%;
+    height: 470px;
+    background-color: rgb(255, 255, 255);
+    display: none;
+    border-top: 1px solid #b0b0b0;
+    box-shadow: 0px 2px 5px #b0b0b0;
+    z-index: 998;
+}
+
+.navList .navListCon {
+    width: 1300px;
+    height: 470px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.navList .navListCon a {
+    position: absolute;
+    right: 10px;
+    bottom: 12px;
+}
+
+.navList .navListCon a:hover {
+    color: rgb(213,0,28);
+}
+
+.navList .navListCon .top {
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    border-bottom: 1px solid #E3E4E5;
+}
+
+.navList .navListCon .top h1 {
+    margin: 30px 0;
+}
+
+.navList .navListCon .top ul li {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #E3E4E5;
+    font-size: 16px;
+}
+
+.navList .navListCon .top ul li:hover {
+    color: rgb(213,0,28);
+    cursor: pointer;
+}
+
+.navList .navListCon .top ul li:first-child {
+    border-top: 1px solid #E3E4E5;
+}
+
+/* 轮播图 */
+#banner {
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+    background-color: #000;
+}
+
+#banner .lb>li {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    transition: opacity 1.5s;
+}
+
+#banner .lb>li.bh {
+    z-index: 5;
+    opacity: 1;
+}
+
+#banner .bs {
+    position: absolute;
+    right: calc(50% - 50px);
+    bottom: 20px;
+    z-index: 6
+}
+
+#banner .bs li {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    margin-left: 10px;
+    float: left;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#banner .bs li.bh {
+    background: red;
+    color: #fff;
+}
+
+#banner>a {
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    width: 40px;
+    font-size: 40px;
+    vertical-align: middle;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 6;
+}
+
+#goPrev {
+    left: 0;
+    border-radius: 0 10px 10px 0;
+}
+
+#goNext {
+    right: 0;
+    border-radius: 10px 0 0 10px ;
+}
+
+
+/* 所有车型 */
+.allModels {
+    width: 100%;
+    height: 1115px;
+    padding-top: 35px;
+    box-sizing: border-box;
+}
+
+.container h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.allModels .imgList {
+    width: 100%;
+    height: 895px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.allModels .imgList li {
+    width: 634px;
+    height: 450px;
+    background-repeat: no-repeat;
+    padding: 26px 0 37px 37px;
+    box-sizing: border-box;
+    position: relative;
+    background-position: center center;
+}
+
+.allModels .imgList li:first-child {
+    background-image: url(../img/1.webp);
+}
+.allModels .imgList li:nth-child(2) {
+    background-image: url(../img/2.webp);
+}
+.allModels .imgList li:nth-child(3) {
+    background-image: url(../img/3.webp);
+}
+.allModels .imgList li:nth-child(4) {
+    background-image: url(../img/4.webp);
+}
+.allModels .imgList li:nth-child(5) {
+    background-image: url(../img/5.webp);
+}
+.allModels .imgList li:nth-child(6) {
+    background-image: url(../img/6.webp);
+}
+
+.allModels .imgList li p:first-of-type{
+    font-size: 27px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.allModels .imgList li p:last-of-type {
+    color: #fff;
+    font-weight: 600;
+}
+
+.allModels .imgList li .box {
+    position: absolute;
+    bottom: 37px;
+    display: flex;
+}
+
+.allModels .imgList li .box a {
+    width: 133px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    display: block;
+}
+
+.allModels .imgList li .box a:first-child {
+    background-color: #fff;
+    margin-right: 8px;
+}
+
+.allModels .imgList li .box a:first-child:hover {
+    background-color: red;
+    color: #fff;
+
+    transition: all 0.3s;
+}
+
+.allModels .imgList li .box a:last-child {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.allModels .imgList li .box a:last-child:hover {
+    color: red;
+    border: 1px solid red;
+
+    transition: all 0.3s;
+}
+
+.p20 {
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+.allModels .container p{
+    font-size: 12px;
+    line-height: 18px;
+}
+
+/* 工具与服务 */
+.container .tools {
+    width: 100%;
+    height: 323px;
+    display: flex;
+}
+
+.container .tools li {
+    color: #fff;
+    position: relative;
+    height: 100%;
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.container .tools li:hover {
+    color: red;
+    cursor: pointer;
+
+    transition: all 0.3s;
+}
+
+.container .tools li:first-child {
+    width: 572px;
+    background-image: url(../img/porsche-normal.webp);
+}
+
+.container .tools li:nth-child(2) {
+    width: 286px;
+    background-image: url(../img/porsche-normal1.webp);
+}
+
+.container .tools li:nth-child(3) {
+    width: 286px;
+    background-image: url(../img/porsche-normal2.webp);
+}
+
+.container .tools li:nth-child(4) {
+    width: 286px;
+    background-image: url(../img/porsche-normal3.webp);
+}
+
+.container .tools li h3 {
+    font-size: 20px;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+}
+
+/* 连接 */
+.connect {
+    height: 510px;
+    margin-top: 80px;
+    border-top: 1px solid #e6e6e6;
+    padding-top: 25px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.connect ul {
+    width: 357px;
+    height: 100%;
+    font-size: 12px;
+    line-height: 45px;
+}
+
+.connect ul li:first-child {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.connect ul .yd:hover {
+    color: red;
+    cursor: pointer;
+
+    transition: all 0.3s;
+}
+
+/* 底部 */
+footer {
+    width: 100%;
+    height: 170px;
+    background-color: #192023;
+    color: #fff;
+    font-size: 12px;
+    line-height: 30px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}

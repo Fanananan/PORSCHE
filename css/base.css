@@ -1,0 +1,35 @@
+
+/* 清除默认内外边距 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 清除 ul, ol, li 的默认索引标志 */
+ul, ol, li {
+  list-style: none;
+}
+
+/* 清除 a 标签默认的样式 */
+a, a:link, a:hover, a:active, a:visited {
+  text-decoration: none;
+  color: #333;
+}
+
+/* 清除 表单元素的 获取焦点外边框 */
+input, button, textarea, select {
+  outline: none;
+}
+
+/* 准备一个清浮动的类名 */
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* 准备一个版心类名 */
+.container {
+  width: 1432px;
+  margin: 0 auto;
+}
