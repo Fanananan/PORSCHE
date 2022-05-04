@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>保时捷官网 - 保时捷股份公司</title>
+    <link rel="shortcut icon" href="./img/icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/detail.css" />
+    <link rel="stylesheet" href="./css/iconfont.css" />
+  </head>
+  <body>
+    <!-- 头部 -->
+    <header>
+      <div class="container">
+        <div class="logo"></div>
+        <ul class="op">
+          <li>
+            <a href="shopCar.html">
+              <span class="iconfont icon-shoucang">已收藏车辆</span>
+            </a>
+          </li>
+          <li>
+            <a href="login.html">
+              <span class="iconfont icon-geren">My Porsche</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- 返回 -->
+    <div class="back container">
+      <a href="shop.html"> 返回 </a>
+    </div>
+
+    <!-- 图片 -->
+    <div class="banner">
+      <div class="left">
+        <img loading="lazy" id="myImg" src="./img/detail/10001.webp" alt="" />
+      </div>
+      <div class="left">
+        <img loading="lazy" id="myImg" src="./img/detail/10002.webp" alt="" />
+      </div>
+      <div class="right">
+        <div class="box">
+          <img loading="lazy" id="myImg" src="./img/detail/10003.webp" alt="" />
+          <img loading="lazy" id="myImg" src="./img/detail/10004.webp" alt="" />
+          <img loading="lazy" id="myImg" src="./img/detail/10005.webp" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- 弹窗 -->
+    <div id="myModal" class="modal">
+      <!-- 关闭按钮 -->
+      <span
+        class="close"
+        onclick="document.getElementById('myModal').style.display='none'"
+        >&times;</span
+      >
+
+      <!-- 弹窗内容 -->
+      <img class="modal-content" id="img01" />
+
+    </div>
+
+    <!-- 信息 -->
+    <div class="information container">
+      <div class="left">
+        <h1>2021 保时捷 718 Cayman T (982)</h1>
+        <button id="sc"></button>
+        <div class="box">
+          <ul class="one">
+            <li>
+              <p>车身颜色</p>
+              <p>熔岩橙</p>
+            </li>
+            <li>
+              <p>内饰颜色</p>
+              <p>718 T内饰组件，对比色：卫红</p>
+            </li>
+            <li>
+              <p>传动系统</p>
+              <p>保时捷双离合器变速箱(自动)</p>
+            </li>
+          </ul>
+          <ul class="two">
+            <li>
+              <span>发动机</span>
+              <span>汽油</span>
+            </li>
+            <li>
+              <span>排量</span>
+              <span>2.0T</span>
+            </li>
+            <li>
+              <span>最大扭矩</span>
+              <span>310N.m</span>
+            </li>
+            <li>
+              <span>综合油耗</span>
+              <span>7.2L/100km</span>
+            </li>
+            <li>
+              <span>环保标准</span>
+              <span>国VI</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="right">
+        <span>￥708,000</span>
+        <span>增值税不可抵扣</span>
+        <a href="#none">联系经销商</a>
+        <a href="#none">通过微信获取经销商信息</a>
+      </div>
+    </div>
+
+    <!-- 底部 -->
+    <footer>
+      <div class="container">
+        <p>&copy; 保时捷（中国）汽车销售有限公司</p>
+        <p>保时捷中国强烈建议您：只在授权的保时捷中心购买车辆和配件。</p>
+        <p>请点击这里获得更多信息</p>
+        <p>环保信息公开</p>
+      </div>
+    </footer>
+
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/axios/dist/axios.js"></script>
+    <script src="./js/detail.js"></script>
+  </body>
+</html>

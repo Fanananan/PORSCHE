@@ -25,7 +25,6 @@
       "name": "Macan"
     }
   ],
-
   "carList": [
     {
       "background": "./img/1.webp",
@@ -58,9 +57,7 @@
       "price": "868,000元起*"
     }
   ],
-
   "shopList": [
-    
     {
       "img": "./img/shop/718Cayman.webp",
       "name": "718 Cayman",
@@ -106,7 +103,6 @@
       "name": "Boxster 25 周年",
       "price": "986,000元起*"
     },
-
     {
       "img": "./img/shop/全新 718 Spyder 车型.webp",
       "name": "全新 718 Spyder 车型",
@@ -177,7 +173,6 @@
       "name": "911 Turbo S Cabriolet",
       "price": "2,480,000元起*"
     },
-
     {
       "img": "./img/shop/Taycan.webp",
       "name": "Taycan",
@@ -198,7 +193,6 @@
       "name": "Taycan Turbo S",
       "price": "1,808,000元起*"
     },
-
     {
       "img": "./img/shop/Panamera.webp",
       "name": "Panamera",
@@ -304,7 +298,6 @@
       "name": "Panamera Turbo S E-Hybrid 行政加长版",
       "price": "2,483,000元起*"
     },
-
     {
       "img": "./img/shop/Macan.webp",
       "name": "Macan",
@@ -325,7 +318,6 @@
       "name": "Macan GTS",
       "price": "848,000元起*"
     },
-
     {
       "img": "./img/shop/Cayenne.webp",
       "name": "Cayenne",
@@ -401,5 +393,6 @@
       "name": "Cayenne Turbo GT",
       "price": "2,438,000元起*"
     }
-  ]
+  ],
+  "shopCar": []
 }

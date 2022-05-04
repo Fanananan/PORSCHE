@@ -22,20 +22,19 @@ class shop {
     let pageSize = 12;
 
     let itemsObj = [];
-    
+
     // 取出数据追加到页面中
     function render(curPage) {
       // 计算开始位置和结束位置
       let startPage = (curPage - 1) * pageSize;
       let endPage = startPage + pageSize;
-     
+
       setTimeout(() => {
         let showData = data.slice(startPage, endPage);
-        console.log(showData);
         let ul = "";
         showData.forEach((ele) => {
           ul += `
-          <li>
+          <li onclick="location.href='detail.html'">
           <img src="${ele.img}" alt="" />
           <p>${ele.name}</p>
           <p>${ele.price}</p>
@@ -46,22 +45,22 @@ class shop {
         itemsObj = Array.from(rightObj.children);
       }, 700);
     }
-    
+
     render(page);
 
     // 可视区高度
     let cliH = document.documentElement.clientHeight;
-    window.onscroll = function(){
+    window.onscroll = function () {
       // 滚动条高度
       let sTop = document.documentElement.scrollTop;
       // 内容高度
-      let contH = itemsObj[itemsObj.length-1].offsetTop;
-      console.log("可视区"+cliH+"滚动条"+sTop+"内容"+contH);
-      
-      if((cliH + sTop) > contH){
+      let contH = itemsObj[itemsObj.length - 1].offsetTop;
+      console.log("可视区" + cliH + "滚动条" + sTop + "内容" + contH);
+
+      if (cliH + sTop > contH) {
         render(++page);
       }
-    }
+    };
 
     // 点击按钮切换样式
     arr.forEach((item, index) => {
@@ -148,7 +147,17 @@ class shop {
           }
         } else {
           this.className = "nocheck";
-          rightObj.innerHTML = ul;
+          let ul = "";
+          data.forEach((ele) => {
+            ul += `
+          <li>
+          <img src="${ele.img}" alt="" />
+          <p>${ele.name}</p>
+          <p>${ele.price}</p>
+          </li>
+          `;
+          });
+          rightObj.innerHTML += ul;
         }
       };
     });

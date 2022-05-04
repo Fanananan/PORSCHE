@@ -1,0 +1,295 @@
+@import url(./base.css);
+
+header {
+    width: 100%;
+    height: 116px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 155px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eee;
+}
+
+header .container {
+    position: relative;
+}
+
+header .container .logo {
+    width: 130px;
+    height: 130px;
+    border: 1px solid #f1f4f3;
+    background-image: url(../img/logo.jfif);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-size: 150%;
+    background-position: center;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+
+header .op {
+    width: 250px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 0;
+}
+
+header .op>li span {
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+header .op>li span:hover {
+    color: red;
+}
+
+header .op>li a span:hover {
+    color: red;
+}
+
+
+/* 返回 */
+.back {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.back a:hover {
+    color: red;
+}
+
+
+/* 图片 */
+.banner {
+    width: 100%;
+    height: 575px;
+    display: flex;
+    overflow: hidden;
+}
+
+.banner .left {
+    width: 900px;
+    height: 100%;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.banner img {
+    transition: all 0.5s;
+}
+
+.banner img:hover {
+    transform: scale(105%);
+    cursor: pointer;
+}
+
+.banner .right {
+    width: 276px;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* 信息 */
+.information {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
+.information .left {
+    width: 1010px;
+    height: 100%;
+    position: relative;
+}
+
+.information .left h1 {
+    margin-bottom: 70px;
+}
+
+.information .left button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-image: url(../img/detail/收藏.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 150px;
+    background-color: #fff;
+}
+
+.information .left .box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information .left .box .one li{
+    width: 490px;
+    height: 77px;
+    border-top: 1px solid #eee;
+    line-height: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    padding-left: 60px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.information .left .box .one li p:last-child {
+    font-weight: 600;
+}
+
+.information .left .box .one li:nth-child(1) {
+    background-image: url(../img/detail/color.png);
+}
+
+.information .left .box .one li:nth-child(2) {
+    background-image: url(../img/detail/neishi.png);
+}
+
+.information .left .box .one li:nth-child(3) {
+    background-image: url(../img/detail/chuandong.png);
+    border-bottom: 1px solid #eee;
+}
+
+.information .left .box .two li{
+    width: 488px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    border-top: 1px solid #eee;
+}
+
+.information .left .box .two li span:last-child {
+    font-weight: 600;
+    position: absolute;
+    left: 250px;
+}
+
+.information .left .box .two li:last-child {
+    border-bottom: 1px solid #eee;
+}
+
+.information .right {
+    width: 375px;
+    height: 215px;
+    box-shadow: 3px 3px 10px rgb(133, 132, 132);
+    padding-top: 25px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.information .right span:first-of-type {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.information .right span:last-of-type {
+    color: #333;
+}
+
+.information .right a {
+    width: 344px;
+    height: 45px;
+    background-color: #323738;
+    line-height: 45px;
+    color: #fff;
+    padding-left: 30px;
+    box-sizing: border-box;
+    margin-top: 17px;
+    display: block;
+}
+
+/* 弹窗背景 */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    z-index: 100000;
+}
+ 
+/* 图片 */
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 1600px;
+}
+
+/* 添加动画 */
+.modal-content, #caption { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+ 
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+ 
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+ 
+/* 关闭按钮 */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+ 
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+ 
+/* 小屏幕中图片宽度为 100% */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+/* 底部 */
+footer {
+    width: 100%;
+    height: 170px;
+    background-color: #192023;
+    color: #fff;
+    font-size: 12px;
+    line-height: 30px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
