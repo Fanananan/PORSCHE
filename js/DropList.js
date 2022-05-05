@@ -1,14 +1,17 @@
 // 获取节点
 let img = document.getElementById('carimg');
 let name = document.getElementById('carname');
-console.log(carimg.src);
+let loginn = document.querySelector('#ll');
+let zx = document.querySelector('#zx');
 
 // 获取数据
 // 封装类
 class DropList {
   baseUrl = "http://localhost:3000/List";
+  testUrl = "http://localhost:3000/test";
   constructor() {
     this.getData();
+    this.ll();
   }
 
   // 获取数据的方法
@@ -62,6 +65,15 @@ class DropList {
         $(".navList").stop().slideUp(300);
       });
   }
+  async ll(){
+    let shuju = await axios.get(this.testUrl);
+    loginn.addEventListener("click", () => {
+    if(shuju.data.length){
+      location.href = "personal.html";
+    }else{
+      location.href = "login.html";
+    }
+  })}
 }
 
 new DropList();

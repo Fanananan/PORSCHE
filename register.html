@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>保时捷官网 - 保时捷股份公司</title>
+    <link rel="shortcut icon" href="./img/icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+<body>
+    <div class="box">
+        <img src="./img/login/10003.webp" alt="">
+        <h1>欢迎！</h1>
+        <form>
+            <input type="text" name="" id="uName" placeholder="请输入用户名">
+            <p id="nameerror">请输入4 - 6位的用户名</p>
+            <input type="password" name="" id="pwd" placeholder="请输入密码">
+            <p id="pswerror">请输入不低于5 - 10位的密码</p>
+            <input type="button" value="注册" id="btn"></input>
+        </form>
+        <p>已有账号</p>
+        <a href="login.html">立即登录</a><span>,进入保时捷数字世界。</span>
+    </div>
+
+    <div class="modal">
+        注册成功，正在跳转至登录...
+    </div>
+
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/axios/dist/axios.js"></script>
+    <script src="./js/register.js"></script>
+</body>
+</html>

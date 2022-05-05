@@ -41,7 +41,7 @@ class shop {
           </li>
           `;
         });
-        rightObj.innerHTML += ul;
+        rightObj.innerHTML  += ul;
         itemsObj = Array.from(rightObj.children);
       }, 700);
     }
@@ -157,7 +157,7 @@ class shop {
           </li>
           `;
           });
-          rightObj.innerHTML += ul;
+          rightObj.innerHTML = ul;
         }
       };
     });

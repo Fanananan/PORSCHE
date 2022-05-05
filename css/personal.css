@@ -1,0 +1,30 @@
+@import url(./base.css);
+
+/* 头部 */
+header {
+    width: 100%;
+    height: 90px;
+    background-image: url(../img/shop/10053.jpg);
+    background-size: 12%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+header .container {
+    position: relative;
+}
+
+header .container #zx {
+    width: 100px;
+    height: 50px;
+    background-color: brown;
+    color: #fff;
+    border: none;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}

@@ -394,5 +394,23 @@
       "price": "2,438,000元起*"
     }
   ],
-  "shopCar": []
+  "shopCar": [],
+  "test": [],
+  "user": [
+    {
+      "username": "admin",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "username": "admin1",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "username": "12345",
+      "password": "12345",
+      "id": 3
+    }
+  ]
 }

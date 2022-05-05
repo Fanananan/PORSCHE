@@ -3,6 +3,7 @@ var modal = document.getElementById('myModal');
 // 获取图片插入到弹窗 - 使用 "alt" 属性作为文本部分的内容
 var img = document.querySelectorAll('#myImg');
 var modalImg = document.getElementById("img01");
+let loginn = document.querySelector('#ll');
 
 img.forEach((ele)=>{
     ele.onclick = function(){
@@ -27,9 +28,11 @@ span.onclick = function() {
 class Detail {
   // 地址
   baseURL = "http://localhost:3000/shopCar";
+  testUrl = "http://localhost:3000/test";
 
   constructor() {
     this.bindEve();
+    this.ll();
   }
 
   bindEve() {
@@ -41,15 +44,33 @@ class Detail {
   }
 
 
-  addData() {
-    axios
+  async addData() {
+    let shuju = await axios.get(this.testUrl);
+    Detail.getNode("#sc").addEventListener("click", () => {
+    if(shuju.data.length){
+      axios
       .post(this.baseURL, {
         name: "2021 保时捷 718 Cayman T (982)"
       })
       .then(({ status }) => {
         if (status == 201) location.reload();
       });
+    }else{
+      location.href = "login.html";
+    }
+  })
+    
   }
+
+  async ll(){
+    let shuju1 = await axios.get(this.testUrl);
+    loginn.addEventListener("click", () => {
+    if(shuju1.data.length){
+      location.href = "personal.html";
+    }else{
+      location.href = "login.html";
+    }
+  })}
 
    //   获取节点的方法
    static getNode(id, all = false) {

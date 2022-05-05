@@ -2,9 +2,10 @@
 class shopCar {
   // 地址
   baseURL = "http://localhost:3000/shopCar";
-
+  testUrl = "http://localhost:3000/test";
   constructor() {
     this.getData();
+    this.ll();
   }
 
   //   获取数据方法
@@ -63,12 +64,21 @@ class shopCar {
     let liObj = sc.parentNode.parentNode;
     // 获取id
     let id1 = liObj.dataset.id;
-    console.log(id1);
     // 删除数据
     axios.delete(this.baseURL + "/" + id1).then(data => {
       if (data.status == 200) location.reload();
     });
   }
+
+  async ll(){
+    let shuju = await axios.get(this.testUrl);
+    shopCar.getNode("#ll").addEventListener("click", () => {
+    if(shuju.data.length){
+      location.href = "personal.html";
+    }else{
+      location.href = "login.html";
+    }
+  })}
 
   //   获取节点的方法
   static getNode(id, all = false) {
